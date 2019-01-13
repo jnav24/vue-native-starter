@@ -1,34 +1,18 @@
-# NativeBase KitchenSink App For Vue Native
+# Vue Native Starter Repo
 
-This project was bootstrapped with [Vue Native Cli](https://github.com/GeekyAnts/vue-native-cli).
+This is a personal setup for Vue Native which is a clone of [GeekyAnts Kitchen Sink App](https://github.com/GeekyAnts/NativeBase-KitchenSink)
 
-## Demo
+## Instructions
 
-| iOS                                                                                             | Android                                                                                                 |
-| :---------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-| ![ios-demo](https://github.com/GeekyAnts/NativeBase-KitchenSink/raw/master/screenshots/iOS.gif) | ![android-demo](https://github.com/GeekyAnts/NativeBase-KitchenSink/raw/master/screenshots/Android.gif) |
-
-## Installation
-
-* **Clone and install packages**
-
-```
-git clone https://github.com/GeekyAnts/KitchenSink-Vue-Native.git
-cd KitchenSink-Vue-Native
-yarn
-```
+Clone this repo and use the expo commands or npm commands to get going:
 
 * **Run on iOS**
-  * Opt #1:
-    * Run `npm start` in your terminal
-    * Scan the QR code in your Expo app
-  * Opt #2:
-    * Run `npm run ios` in your terminal
+  * npm run start
+  * npm run ios
+  * npm run android
+  * npm run eject
 
-- **Run on Android**
-  * Opt #1:
-    * Run `npm start` in your terminal
-    * Scan the QR code in your Expo app
-  * Opt #2:
-    * Make sure you have an `Android emulator` installed and running
-    * Run `npm run android` in your terminal
+## Why clone?
+
+I tried followig the doc on the Vue Native site in creating a project but was overloaded with errors. I also followed the instructions on possible solutions but was still getting errors. Cloning the Kitchen sink app was the only solution.
+

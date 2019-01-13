@@ -10,11 +10,15 @@
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
-    "test": "jest"
+    "rn-start": "react-native-scripts start",
+    "rn-eject": "react-native-scripts eject",
+    "rn-android": "react-native-scripts android",
+    "rn-ios": "react-native-scripts ios",
+    "test": "jest",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
   },
   "jest": {
     "preset": "jest-expo"
